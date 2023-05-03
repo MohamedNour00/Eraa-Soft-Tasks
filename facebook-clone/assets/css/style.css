@@ -1,6 +1,6 @@
-/*=========================================================
-** Global Css
-=========================================================*/
+/*===================================
+** Start Css
+===================================*/
 *{
     box-sizing:border-box
 }
@@ -9,38 +9,33 @@
     --dark-sction-background:#1a1c20;
     --main-blue: #1877f2;
 }
-
-
-
-
-/*=========================================================
-** Start Main Css
-=========================================================*/
-
+/*===================================
+** Global Css
+===================================*/
 body {
     background-color: var(--dark)
 }
-
 img{
     width: 100%
 }
-
 ul{
     padding:0;
     margin:0;
     list-style: none;
 }
-
-a {text-decoration: none;}
+a {
+    text-decoration: none;
+}
 .active{
     border-bottom:2px solid var(--main-blue);
     color:#1877f2 !important;
 }
-
 .dark-sec-bg{
     background: var(--dark-sction-background)
 }
-/* Start Header Code */
+/*===================================
+** Start Header
+===================================*/
 .header-elements {
     border-bottom:1px solid #35383c;
 }
@@ -180,7 +175,50 @@ i.fa-solid.fa-search {
     font-size:24px
 }
 
-/* Start Main */
+.hum-menu {
+    width: 20px;
+    height: 14px;
+}
+
+.menubar {
+    background: #1877f2;
+    width:100%;
+    height:2px;
+    left:0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.menubar:first-child {
+    top:0;
+}
+.menubar:nth-child(2) {
+    top:6px;
+}
+.menubar:last-child {
+    top:12px
+}
+
+.hum-menu:hover .menubar:nth-child(2) {
+    opacity:0
+}
+
+.hum-menu:hover .menubar:first-child,
+.hum-menu:hover .menubar:last-child {
+    top:6px
+}
+
+.hum-menu:hover .menubar:first-child {
+    transform: rotate(45deg)
+}
+
+.hum-menu:hover .menubar:last-child {
+    transform: rotate(-45deg)
+}
+
+/*===================================
+** Start Main
+===================================*/
 
 /* Left Side */
 /* Profile */
@@ -212,7 +250,6 @@ main {
 
 
 /* Messenger List */
-
 
 .messenger {
     padding:10px;
@@ -249,8 +286,6 @@ main {
     border-radius: 50%;
 }
 
-
-
 /* Recent Images */
 
 .recent-images {
@@ -279,13 +314,9 @@ main {
     border-radius:8px
 }
 
-/* Start Content */
-
-.content {
-    padding: 0 15px;
-}
-
-
+/*===================================
+** Start Content
+===================================*/
 /* Start Stories */
 
 .stories{
@@ -420,7 +451,10 @@ i.fa-solid.fa-caret-down.position-absolute {
 /* End Posts */
 
 /* End Content */
-/* Right Side */
+
+/*===================================
+** Start Right Side
+===================================*/
 /* Events */
 
 .events {
