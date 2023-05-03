@@ -447,6 +447,7 @@ i.fa-solid.fa-caret-down.position-absolute {
 
 .posts-img img{
     border-radius: 0;
+    object-fit: cover;
 }
 /* End Posts */
 
