@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap");
+
+/* Global Css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  margin: 0 150px;
+  padding: 0 15px;
+}
+
+.clear {clear: both;}
+
+.button1 {
+    display:block;
+    width:250px;
+    background:#e3b14e;
+    text-align:center;
+    font-size:18px;
+    padding:10px 20px;
+    border-radius:25px;
+    color:#fff;
+    font-weight:bold;
+    text-decoration:none;
+    transition:ease-in .2s;
+    margin:20px auto 0 auto;
+}
+a.button1:hover {
+    background:#fff;
+    color:#e3b14e;
+    border:1px dashed #e3b14e
+}
+/* Header Start */
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  padding: 20px;
+  text-align: center;
+}
+nav ul li {
+  list-style: none;
+  float: left;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #3b3b3b;
+  padding: 20px;
+}
+
+nav ul li a.active {
+  color: #259bca;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #259bca;
+  font-weight: bold;
+  transition: ease-in 0.2s;
+}
+/* Header End */
+
+/* Hero Start */
+#hero {
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-content {
+  width: 36%;
+  padding: 250px 0 150px 0;
+}
+
+.hero-content h1 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.hero-content p {
+  line-height: 1.5;
+  color: #363636;
+}
+
+.hero-content .hero-button {
+    display: flex;
+    align-items: center;
+    margin-top:50px;
+}
+
+.hero-content .hero-button a {
+    text-decoration:none;
+    color:#000;
+}
+
+.hero-content .hero-button .icon {
+    margin-right:5px;
+    color:#e3b14e;
+    width:30px;
+    height:25px;
+}
+/* Hero End */
+/* Content Blocks Start */
+.content-blocks {
+    width:100%;
+    margin-top:50px;
+    }
+
+.content-blocks .block {
+    width:45%; float:left; 
+    margin-right:50px;
+    margin-top:50px
+}
+
+.content-blocks .block h1 {
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.content-blocks .block p {line-height:1.5}
+
+.content-blocks .block .list li {
+    margin-bottom:20px;
+    list-style:none;
+    display:flex;
+    align-items: center;
+}
+
+.content-blocks .block .list .icon {
+    margin-right:5px;
+    color:#e3b14e;
+    width:30px;
+    height:25px;
+}
+
+.content-blocks .block .div-icon {
+    text-align: left;
+}
+.content-blocks .block .div-icon svg {
+    fill:#e3b14e;     
+    width:50px;
+    height:50px;
+}
+/* Content Blocks End */
+
+/* About Start */
+.about {
+    background-color: #e9f2fa;
+    margin-top:50px;
+    padding:20px 0;
+    height:auto
+}
+
+.about img {
+    max-width:500px;
+}
+.about .about-content {
+    float:right; 
+    width:500px;
+    padding-top:20px
+}
+.about .about-content h1 {font-size:25px}
+.accordion-sec {margin-top:30px}
+.accordion-sec .accordion-container .accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .accordion-sec .accordion-container .active, .accordion:hover {
+    background-color: #fff; 
+  }
+  
+  .accordion-sec .accordion-container .panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    margin-top:15px
+  }
+  .accordion-sec .accordion-container .panel p {line-height:1.5}
+/* About Start */
+/* Reservation Start */
+.reservation {margin-top:50px}
+.reservation p {
+    text-align: center;
+    margin: 0 auto;
+    width: 1000px;
+    font-size: 30px;
+    line-height: 1.5;
+}
+/* Reservation End */
+
+/* Prices Start */
+.price-sec {
+    background-color: #e9f2fa;
+    margin-top:50px;
+    padding:20px 0;
+}
+.price-sec .card {
+    float: right;
+    padding: 25px;
+    margin-right: 5px;
+    margin-top: 20px;
+    width: 32%;
+    border: 1px solid #ddd;
+    text-align:center;
+    background:#fff
+  }
+  
+.price-sec .card-icon svg {
+    height:75px;
+    width:75px;
+    fill:#e3b14e
+}
+.price-sec .card .card-head {
+    margin-top:30px;
+    font-size:23px;
+    font-weight: bold;
+    height: 30px;
+    color: #000;
+    padding: 5px 0 5px 0;
+    border-radius: 5px;
+  }
+  
+.price-sec .card .price {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #000;
+  }
+  
+.price-sec .card .description {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color:#4e4e4e
+  }
+  
+/* Prices End */
+
+/* Gallery Start */
+.gallery {
+    margin-top:50px;
+    text-align:center
+}
+
+.gallery h1 {
+    margin-bottom:20px;
+    font-size:23px
+}
+
+.gallery p {
+    font-size:20px
+}
+
+.gallery .images {
+    margin-top:20px !important;
+    float:left; 
+    margin:5px;
+    width:32%;
+    height:300px;
+    position:relative;
+    transition: ease-in .3s; 
+
+}
+.gallery .images .overly {
+    width:100%; 
+    height:100%; 
+    position:absolute; 
+    background:#000; 
+    z-index:999; 
+    opacity: .5;
+    display:none;
+}
+
+.gallery .images:hover .overly {display:block}
+
+.gallery .images .gallery-images {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position:relative;
+}
+
+/* Gallery End */
+
+/* Testimonials Start */
+.testimonials {
+    background-color: #e9f2fa;
+    margin-top:50px;
+    padding:20px 0;
+}
+.testimonials h1 {
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.testimonials .testimonials-card {
+    width:48%;
+    background:#fff;
+    padding:20px;
+    float:left;
+    margin-right:20px
+}
+
+.testimonials .testimonials-card .card-image  {
+    width:120px;
+    height:120px; 
+    margin-bottom:10px;
+    background-image:url(../images/4.jpg);
+    background-position: center;
+    background-size:cover;
+    border-radius:50%
+}
+
+.testimonials .testimonials-card .description {
+    color:#696969;
+    line-height:1.5;
+    margin-bottom:10px
+}
+
+/* Testimonials End */
+
+/* Ideas Start */
+.ideas {margin-top:50px}
+.ideas .ideas-content {
+    width:40%;
+    float:left;
+    padding-top:120px;
+}
+.ideas .ideas-content h1 {
+    margin-bottom:10px;
+    font-size:30px
+}
+.ideas .ideas-content p {
+    color:#505050; 
+    line-height:1.5;
+    font-size:20px
+}
+
+.ideas img {
+    float:right;
+    max-width:500px
+}
+/* Ideas End */
+
+/* Contact Start */
+.contact {
+    margin-top:50px;
+    background-image: url(../images/contact-bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:100px 0;
+}
+
+.contact .form-holder {
+    width:500px;
+    margin-left:630px
+}
+.contact label {
+    display:block;
+    margin-bottom:10px;
+}
+
+.contact input {
+    width:100%;
+    padding:15px 10px;
+    outline: 0;
+    border-radius:10px;
+    border:1px solid #ddd
+}
+
+.contact .name {margin-top:20px;}
+.contact .name .first {
+    width:49%; 
+    margin-right:5px;
+    display:inline-block
+}
+.contact .name .last {
+    width:49%;
+    display:inline-block
+}
+.contact .message {margin-top:10px;}
+.contact .message textarea {
+    width:100%;
+    padding:15px 10px;
+    outline: 0;
+    border-radius:10px;
+    border:1px solid #ddd
+}
+.contact .submission input {
+    display:block;
+    width:250px;
+    background:#e3b14e;
+    text-align:center;
+    font-size:18px;
+    padding:10px 20px;
+    border-radius:25px;
+    color:#fff;
+    font-weight:bold;
+    text-decoration:none;
+    transition:ease-in .2s;
+    margin:20px auto 0 auto;
+}
+.contact .submission input:hover {
+    background:#fff;
+    color:#e3b14e;
+    border:1px dashed #e3b14e
+}
+/* Contact End */
+/* Footer Start */
+footer {
+    padding:50px;
+    text-align:center;
+    background-color:#2d2d2d;
+    color:#fff
+}
+
+footer p {
+    font-size: 20px; 
+    display:inline-block
+}
+footer a {
+    text-decoration: none;
+    color:#e3b14e;
+    transition:ease-in .2s
+}
+footer a:hover {
+    font-weight: bold;
+    color:#5f3f00
+}
+/* Footer End */
