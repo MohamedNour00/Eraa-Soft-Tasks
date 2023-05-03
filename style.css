@@ -13,7 +13,19 @@ body {
     font-weight: bold;
     font-size: 2rem;
 }
+.card {
+    animation: moving 4s alternate infinite;
+}
 
+
+@keyframes moving {
+    from {
+        transform: rotate(2deg);
+    }
+    to {
+        transform: rotate(-2deg);
+    }
+}
 .card-img-top {
     transition: all 0.3s ease-in-out;
 }
