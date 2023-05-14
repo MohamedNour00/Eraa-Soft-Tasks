@@ -45,10 +45,23 @@ body {
         transform: rotate(-2deg);
     }
 } */
+
 .card-img-top {
     transition: all 0.3s ease-in-out;
 	min-width:304.4px;
 	min-height: 144px;
+}
+.card-buttons .btn {
+    background: #a4c639;
+    border: 0;
+    padding: 5px 20px;
+    transition: all .3s ease-in-out
+}
+
+.card-buttons .btn:hover {
+    color:#a4c639;
+    background: transparent;
+    border: 1px solid #a4c639
 }
 
 .card-img-top:hover {
