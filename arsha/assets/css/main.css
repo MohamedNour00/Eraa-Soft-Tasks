@@ -950,7 +950,7 @@ form.newsletter-form {
   }
 }
 
-@media only screen and (max-width:992px){
+/* @media only screen and (max-width:992px){
   .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
@@ -960,4 +960,4 @@ form.newsletter-form {
     border-radius: 10px;
     border: 1px solid #233c69a1;
 }
-}
+} */
