@@ -37,14 +37,14 @@ body {
 }
 
 
-@keyframes moving {
+/* @keyframes moving {
     from {
         transform: rotate(2deg);
     }
     to {
         transform: rotate(-2deg);
     }
-}
+} */
 .card-img-top {
     transition: all 0.3s ease-in-out;
 	min-width:304.4px;
