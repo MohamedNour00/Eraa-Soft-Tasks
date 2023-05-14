@@ -949,3 +949,15 @@ form.newsletter-form {
     padding: 20px !important
   }
 }
+
+@media only screen and (max-with: 992px){
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background: #37517e;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #233c69a1;
+}
+}
