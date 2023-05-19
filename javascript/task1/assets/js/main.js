@@ -488,26 +488,26 @@
 
 // // // 17- Write a program to find maximum between two numbers
 
-// var num1 = +prompt('Enter First Number:')
-// var num2 = +prompt('Enter Second Number')
+var num1 = +prompt('Enter First Number:')
+var num2 = +prompt('Enter Second Number')
 
-// switch (num1, num2) {
+switch (num1, num2) {
 
-//     case 1:
-//         if(num1 > num2) {
-//             console.log(num1 + ' Is the Greater and ' + num2 + ' Is Ther Smallest')
-//         }
-//         break;
+    case 1:
+        if(num1 > num2) {
+            console.log(num1 + ' Is the Greatest and ' + num2 + ' Is The Smallest')
+        }
+        break;
     
-//     case 2:
-//         if (num1 = num2) {
-//             console.log(num1 + ' and ' + num2 + ' Are Equals')
-//         }
+    case 2:
+        if (num1 = num2) {
+            console.log(num1 + ' and ' + num2 + ' Are Equals')
+        }
         
-//     default:
-//         console.log(num2 + ' Is the Greate and ' + num1 + ' Is Ther Smallest')
+    default:
+        console.log(num2 + ' Is the Greatest and ' + num1 + ' Is Ther Smallest')
 
-// }
+}
 
 
 
@@ -535,28 +535,28 @@
 
 // 19- Write a program to check whether a number is positive or negative or zero
 
-var num = Number(prompt('Please Enter a Number:'))
+// var num = Number(prompt('Please Enter a Number:'))
 
-switch (num) {
+// switch (num) {
 
-    case 0:
-        if (num == 0){
-        console.log('You Entered 0');
-        }
-        break;
+//     case 0:
+//         if (num == 0){
+//         console.log('You Entered 0');
+//         }
+//         break;
 
-    case 1:
-        if (num > 0){
-            console.log('You Entered A Positive Number');
-        }
-        break;
+//     case 1:
+//         if (num > 0){
+//             console.log('You Entered A Positive Number');
+//         }
+//         break;
 
-    default:
-        console.log('You Entered A Negative Number');
-        break;
+//     default:
+//         console.log('You Entered A Negative Number');
+//         break;
 
 
-}
+// }
 
 
 // 20- Write a program to create Simple Calculator
