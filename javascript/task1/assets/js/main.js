@@ -491,18 +491,17 @@
 var num1 = +prompt('Enter First Number:')
 var num2 = +prompt('Enter Second Number')
 
-switch (num1, num2) {
+switch (true) {
 
-    case 1:
-        if(num1 > num2) {
-            console.log(num1 + ' Is the Greatest and ' + num2 + ' Is The Smallest')
-        }
+    case num1 > num2:
+
+        console.log(num1 + ' Is the Greatest and ' + num2 + ' Is The Smallest')
         break;
     
-    case 2:
-        if (num1 = num2) {
-            console.log(num1 + ' and ' + num2 + ' Are Equals')
-        }
+    case num1 = num2:
+        
+        console.log(num1 + ' and ' + num2 + ' Are Equals')
+        
         
     default:
         console.log(num2 + ' Is the Greatest and ' + num1 + ' Is Ther Smallest')
@@ -537,18 +536,18 @@ switch (num1, num2) {
 
 // var num = Number(prompt('Please Enter a Number:'))
 
-// switch (num) {
+// switch (true) {
 
-//     case 0:
-//         if (num == 0){
+//     case num == 0:
+    
 //         console.log('You Entered 0');
-//         }
+        
 //         break;
 
-//     case 1:
-//         if (num > 0){
-//             console.log('You Entered A Positive Number');
-//         }
+//     case num > 0:
+        
+//         console.log('You Entered A Positive Number');
+        
 //         break;
 
 //     default:
