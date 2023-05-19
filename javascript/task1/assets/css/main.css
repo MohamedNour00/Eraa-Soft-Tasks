@@ -1,0 +1,27 @@
+.problems {
+    height:100vh
+}
+
+
+.card {
+    padding: 30px;
+}
+
+.card-head {
+    color: #fff;
+    background: #00526c;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.content {
+    margin-top: 10px;
+    padding-left: 20px;
+    border-left: 5px solid #00526c;
+}
+
+.content p {
+    line-height: 1.7;
+    color: #696969;
+    font-size: 15px;
+}

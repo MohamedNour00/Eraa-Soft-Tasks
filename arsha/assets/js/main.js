@@ -54,4 +54,3 @@ function manageItems() {
     })
 }
 
-console.log(item);
