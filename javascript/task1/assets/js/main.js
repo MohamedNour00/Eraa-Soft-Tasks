@@ -571,8 +571,6 @@ switch (true) {
 // var sign = prompt('Enter You Calculation Sign From The Following: ( +, -, *, /');
 // var num2 = +prompt('Enter Second Numebr');
 
-
-
 // switch (sign) {
 
 //     case '+':
@@ -588,7 +586,11 @@ switch (true) {
 //         break
     
 //     case '/':
+//         if (num2 == 0){console.log('Cannot Devide to 0')}
+//         break;
+
 //         console.log('You Entered ' + num1 + ' ' + sign + ' ' + num2 + ' and The Result Is ' + (num1 / num2))
+//         break;
 
 //     default:
 //         console.log('Invalid Proccess, Please Enter a Valid Calculation Sign')
