@@ -67,7 +67,10 @@
 
 //         console.log('You Enterd ' + num1 + ', ' + num2 + ' and Greatest Number Is: ' + num2);
 
-//     }
+//     } else {
+
+//         console.log('You Enterd ' + num1 + ', ' + num2 + ' and Two Numbers Is Equal');
+// }
 
 
 
@@ -89,9 +92,14 @@
 
 //     console.log('You Entered ' + num + ' and It Is A Negative Number')
 
-// } else (
+// } else if (num > 0) {
+
 //     console.log('You Entered ' + num + ' and It Is A Positive Number')
-// )
+
+// } else {
+
+//     console.log('You Entered ' + num + ' and It Is Not A Positive or A Negative Number')
+// }
 
 
 // 5- Write a program that take 3 integers from user then print the max element and the min element.
@@ -105,8 +113,7 @@
 // var num1 = Number(prompt('Please Enter The First Number')),
 //     num2 = +prompt('Please Enter The Second Number'),
 //     num3 = parseInt(prompt('Please Enter The Third Number'));
-
-    
+ 
 
 // if (num1 > num2 && num1 > num3) {
 
